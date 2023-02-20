@@ -90,12 +90,24 @@ img {
     background-color: aqua;
 }
 
+.debug #call_to_action .container,
+.debug #app_footer .container
+{
+    height: 300px;
+}
+
 /* #endregion debug */
 
 /* #region main */
 
+#app_header {
+    background-color: var(--secondary);
+}
+
 #planning,
-#benefits {
+#benefits,
+#call_to_action 
+{
     background-color: var(--primary);
 }
 
@@ -106,11 +118,11 @@ img {
     background-color: var(--light);
 }
 
-/* #region app_header */
-
-#app_header {
-    background-color: var(--secondary);
+#app_footer {
+    background-color: var(--dark);
 }
+
+/* #region app_header */
 
 #app_header .container {
     justify-content: space-between;
@@ -151,6 +163,17 @@ img {
 /* #region benefits_section */
 
 /* #endregion benefits_section */
+
+/* #region call_to_action_section */
+
+#call_to_action .container,
+#app_footer .container 
+{
+    padding: 1rem 0;
+}
+
+/* #endregion call_to_action_section */
+
 
 /* #endregion main */
 
