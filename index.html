@@ -16,13 +16,36 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body class="debug">
+<body class="">
 
     <header id="app_header">
         <nav class="container d_flex">
-            <div class="logo d_flex"></div>
+            <div class="logo d_flex">
+                <img src="./assets/img/logo.png" alt="Site Logo">
+            </div>
             <!-- /.logo -->
-            <div class="menu d_flex"></div>
+            <ul class="menu list_unstiled d_flex">
+                <li class="hidden">
+                    <a href="#">Planning</a>
+                </li>
+                <li class="hidden">
+                    <a href="#">Testimonials</a>
+                </li>
+                <li class="hidden">
+                    <a href="#">Features</a>
+                </li>
+                <li class="hidden">
+                    <a href="#">About Us</a>
+                </li>
+                <li class="hidden">
+                    <button class="btn secondary_btn">Get Started</button>
+                </li>
+                <li class="show">
+                    <button class="btn transparent_btn">
+                        <i class="fa-solid fa-bars fa-2x"></i>
+                    </button>
+                </li>
+            </ul>
             <!-- /.menu -->
         </nav>
         <!-- /.container d_flex -->
@@ -135,7 +158,7 @@
         <!-- /#call_to_action.py-2 -->
     </main>
     <!-- /#app_main -->
-    <footer id="app_footer">
+    <footer class="py-2" id="app_footer">
         <div class="container"></div>
         <!-- /.container -->
     </footer>
