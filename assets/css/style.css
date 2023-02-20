@@ -70,6 +70,20 @@ img {
 .debug [class^="col_"] {
     height: 350px;
 }
+
+.debug .section_header,
+.debug .card,
+.debug .card_img
+{
+    height: 150px;
+}
+
+.debug .card_content {
+    height: 100%;
+    background-color: aqua;
+}
+
+
 /* #endregion debug */
 
 /* #region main */
@@ -101,6 +115,19 @@ img {
     background-color: var(--light);
 }
 
+/* #region testimonials_section */
+
+#testimonials .container {
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#testimonials .card {
+    flex-direction: column;
+}
+
+/* #endregion testimonials_section */
+
 /* #endregion section_demo */
 
 /* #endregion main */
@@ -121,6 +148,20 @@ img {
     .col_md_8 {
         width: calc(100% / 12 * 8);
     }
+
+    #testimonials .card {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #testimonials .card_img {
+        width: 20%;
+    }
+    
+    #testimonials .card_content {
+        width: 80%;
+    }
+
 }
 
 /* #endregion responsive_tablet */
