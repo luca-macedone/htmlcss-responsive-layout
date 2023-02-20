@@ -1,7 +1,5 @@
 /* #region common */
 
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +14,7 @@
     --light: #fefffe;
     --dark: #333333;
     /* font_family */
-    --font: 'Titillium Web', sans-serif;
+    --font: 'PT Sans', sans-serif;;
 }
 
 body {
@@ -29,18 +27,77 @@ img {
 
 /* #endregion common */
 
-/* #region debug */
-
-/* #endregion debug */
-
 /* #region utilities */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.d_flex {
+    display: flex;
+}
 
 /* #endregion utilities */
 
+/* #region debug */
+.debug * {
+    border: 1px dashed;
+}
+
+.debug #app_header {
+    height: 3rem;
+}
+
+.debug .container {
+    height: 100%;
+}
+/* #endregion debug */
+
 /* #region main */
+
+/* #region app_header */
+
+#app_header {
+    background-color: var(--secondary);
+}
+
+#app_header .container {
+    padding: .25rem;
+    justify-content: space-between;
+}
+
+#app_header .logo {
+    width: 30%;
+    justify-content: flex-start;
+}
+
+#app_header .menu {
+    width: 20%;
+    justify-content: flex-end;
+}
+/* #endregion app_header */
 
 /* #endregion main */
 
 /* #region responsive */
+
+/* #region responsive_tablet */
+
+@media screen and (min-width: 768px) {
+    
+}
+
+/* #endregion responsive_tablet */
+
+/* #region responsive_desktop */
+
+@media screen and (min-width: 1200px){
+    #app_header .menu {
+        width: 70%;
+    }
+}
+
+/* #endregion responsive_desktop */
 
 /* #endregion responsive */
