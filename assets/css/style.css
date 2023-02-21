@@ -382,6 +382,43 @@ img {
 
 /* #region benefits_section */
 
+#benefits .section_header {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#benefits .card {
+    margin: 1.5rem;
+    background-color: var(--light);
+    padding: 2rem;
+    border-radius: 1rem;
+    line-height: 2rem;
+}
+
+#benefits .number {
+    display: inline-block;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+#benefits h3 {
+    font-size: 1.5rem;
+}
+
+#benefits .number,
+#benefits p,
+#benefits h3 
+{
+    margin-bottom: 2rem;
+}
+
+#benefits .primary_btn {
+    width: 40%;
+    text-transform: lowercase;
+}
+
+
 /* #endregion benefits_section */
 
 /* #region call_to_action_section */
