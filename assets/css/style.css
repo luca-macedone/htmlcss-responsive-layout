@@ -207,6 +207,7 @@ img {
 
 #app_header .container {
     justify-content: space-between;
+    padding: 1rem 2rem;
 }
 
 #app_header .logo {
@@ -231,6 +232,10 @@ img {
 
 #demo {
     background-color: var(--light);
+}
+
+#demo .container {
+    padding: 2rem;
 }
 
 #demo .card {
@@ -382,9 +387,13 @@ img {
 
 /* #region benefits_section */
 
+#benefits .container {
+    padding: 2rem;
+}
+
 #benefits .section_header {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #benefits .card {
@@ -522,7 +531,17 @@ img {
 
 /* #region app_footer */
 
+#app_footer .container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
 
+#app_footer p {
+    text-align: center;
+    margin: 1.5rem 0;
+}
 
 /* #endregion app_footer */
 
@@ -572,13 +591,17 @@ img {
     #demo .col_12:nth-child(2) .card {
         min-height: calc(100% - 1.5rem - 8px);
     }
-
+    
     #about .img {
         width: 100%;
     }
     
     #about .content .btn {
         width: 60%;
+    }
+
+    #app_footer p {
+        width: 50%;
     }
 }
 
@@ -658,7 +681,7 @@ img {
     #about .content .btn {
         width: 80%;
     }
-    
+
 }
 
 /* #endregion responsive_desktop */
