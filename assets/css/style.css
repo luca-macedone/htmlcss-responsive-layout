@@ -269,6 +269,43 @@ img {
 
 /* #endregion section_demo */
 
+/* #region planning_section */
+
+#planning .col_12,
+#planning .card 
+{
+    padding: 1.5rem;
+    flex-direction: column;
+    gap: 1.5rem;
+    line-height: 2rem;
+}
+
+#planning h1 {
+    width: 100%;
+    font-size: 3rem;
+    text-align: start;
+    margin-top: 40px;
+}
+
+#planning .card {
+    background-color: var(--light);
+    padding: 2rem;
+    border-radius: 3rem;
+    text-align: center;
+}
+
+#planning .card p {
+    font-style: italic;
+}
+
+#planning .primary_btn {
+    padding: .80rem 1.05rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+}
+
+/* #endregion planning_section */
+
 /* #region testimonials_section */
 
 #testimonials .container {
@@ -399,6 +436,29 @@ img {
 
     #demo .card .row {
         flex-wrap: nowrap;
+    }
+
+    #planning .col_lg_6 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    #planning .card {
+        min-height: 100%;
+        justify-content: space-between;
+    }
+
+    #planning .col_lg_6:last-child {
+        padding-top: 150px;
+        padding-bottom: 0;
+    }
+
+    #planning .card img {
+        height: 300px;
+    }
+
+    #planning h2 {
+        font-size: 2rem;
     }
     
 }
