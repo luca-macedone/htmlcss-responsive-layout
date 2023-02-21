@@ -472,7 +472,50 @@ img {
 #call_to_action .container,
 #app_footer .container 
 {
-    padding: 1rem 0;
+    padding: 1.5rem;
+}
+
+#call_to_action .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+#call_to_action h2 {
+    text-transform: uppercase;
+    font-weight: 100;
+
+}
+
+#call_to_action p {
+    line-height: 2rem;
+}
+
+#call_to_action p:first-of-type {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    font-weight: 600;
+}
+
+#call_to_action p:first-of-type span {
+    display: inline-block;
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+
+#call_to_action .secondary_btn {
+    padding: 1.5rem 3rem;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#call_to_action i {
+    font-size: .4rem;
+    vertical-align: middle;
+    margin: 0 .25rem;
 }
 
 /* #endregion call_to_action_section */
